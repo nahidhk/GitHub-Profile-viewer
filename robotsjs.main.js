@@ -1,26 +1,32 @@
 console.log('robotsJS');
-
-function gRobotsgvn(length) {
-  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+const rbcalculator = document.getElementById('rbcalculator');
+const outpouvaluecal = document.getElementById('outpouvaluecal');
+function myrobotstxt(){
+const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   let result = '';
-  for (let i = 0; i < length; i++) {
+  for (let i = 0; i < 7; i++) {
     result += characters.charAt(Math.floor(Math.random() * characters.length));
   }
-  document.getElementById('rbcalculator').innerHTML = result; // Set result as innerHTML
-  return result;
+ sessionStorage.setItem('robotstxt',result);
 }
-
-// Call the function with desired length
-gRobotsgvn(7);
-const star7 = gRobotsgvn(7);
-function uuio(){
-  gRobotsgvn(7);
+myrobotstxt();
+function settimeoutsystem(){
+  const loadrobotsdata = sessionStorage.getItem('robotstxt');
+  rbcalculator.innerHTML=loadrobotsdata;
+  return loadrobotsdata;
 }
-function okiop() {
-  const noip = document.getElementById('outpouvaluecal').value;
-
-if (star7 === noip) {
-  alert('okip')
+function mainthecheckip(){
+  setTimeout(settimeoutsystem,500);
 }
-
-}
+mainthecheckip();
+ function cngfbtxt(){
+   myrobotstxt();
+   mainthecheckip();
+ }
+ function ckrobot(){
+   if (settimeoutsystem() === outpouvaluecal) {
+     alert('ok')
+   } else {
+     alert(settimeoutsystem())
+   }
+ }
