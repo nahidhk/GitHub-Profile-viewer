@@ -12,7 +12,7 @@ const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567
 myrobotstxt();
 function settimeoutsystem(){
   const loadrobotsdata = sessionStorage.getItem('robotstxt');
-  rbcalculator.innerHTML=loadrobotsdata;
+  rbcalculator.innerHTML=`<i><s>${loadrobotsdata}</s></i>`;
   return loadrobotsdata;
 }
 function mainthecheckip(){

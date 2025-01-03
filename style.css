@@ -1,4 +1,9 @@
-body{
-  background-color: #E3E3E3;
-  margin: 0;
+@font-face {
+  font-family:gpfontio ;
+  src: url('robot.ttf');
+}
+#rbcalculator{
+  font-family: gpfontio;
+  color: #000;
+  text-width:blod;
 }
