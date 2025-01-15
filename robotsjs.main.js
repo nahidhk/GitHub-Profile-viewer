@@ -61,14 +61,14 @@ function cngfbtxt() {
 function apirobotsJS(apidata) {
   const callurl = apidata.call;
   const callmethod = apidata.method;
-  const callid = document.getElementById(apidata.id); // Get the form element by ID
+  const callid = document.getElementById(apidata.id); 
 
   if (settimeoutsystem() === outpouvaluecal.value) {
     callid.action = callurl;
     callid.method = callmethod;
     callid.submit();
   } else {
-    alert("Error Code :" + settimeoutsystem());
+    alert('No fill the RobotsJST !');
   }
 }
 
