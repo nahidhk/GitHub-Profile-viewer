@@ -86,4 +86,4 @@ apirobotsJS({
 
 ---
 
-By following these steps, you can efficiently integrate and utilize RobotsJST in your project. For further assistance, refer to the [official documentation](https://github.com/nahidhk/robotsJST).
+By following these steps, you can efficiently integrate and utilize RobotsJST in your project. For further assistance, refer to the [official documentation](https://github.com/nahidhk/robotsJST/wiki).
