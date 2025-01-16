@@ -22,7 +22,7 @@ This will create a local copy of the repository on your machine.
 To include the RobotsJST script in your project, use the following CDN link in your HTML file:
 
 ```html
-<script src="/robotsJST/robotsjs.main.js?v=1.0&cdn=html%php"></script>
+<script src="/robotsJST/robotsjs.main.js?v=1.0&cdn=html%php" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
 Make sure this script tag is placed within the `<head>` or just before the closing `<body>` tag in your HTML file to ensure it loads correctly.
