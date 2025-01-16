@@ -14,7 +14,7 @@ const style = document.createElement('style');
 style.innerHTML = `
   @font-face {
     font-family: 'robotsjsfont';
-    src: url('robot.ttf');
+    src: url('/robotsJST/robot.ttf');
     font-weight: normal;
     font-style: normal;
   }
