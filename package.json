@@ -1,24 +1,31 @@
 {
-    "name": "robotsJST",
-    "version": "1.0.0",
-    "description": "A JavaScript library for RobotsJST",
+    "name": "robotsjst",
+    "version": "1.0.2",
+    "description": "A JavaScript library for interacting with robots.",
     "main": "robotsjs.main.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "node robotsjs.main.js"
     },
     "repository": {
       "type": "git",
       "url": "git+https://github.com/nahidhk/robotsJST.git"
     },
     "keywords": [
-      "robotsJST",
+      "robots",
       "JavaScript",
+      "robotsJST",
+      "library",
+      "automation",
       "API"
     ],
-    "author": "NAHID HK",
-    "license": "ISC",
+    "author": "Nahid HK",
+    "license": "MIT",
     "bugs": {
       "url": "https://github.com/nahidhk/robotsJST/issues"
     },
-    "homepage": "https://github.com/nahidhk/robotsJST#readme"
+    "homepage": "https://github.com/nahidhk/robotsJST#readme",
+    "publishConfig": {
+      "access": "public"
+    }
   }
+  
