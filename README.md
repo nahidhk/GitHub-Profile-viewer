@@ -12,6 +12,11 @@ Start by cloning the RobotsJST repository from GitHub. Open your terminal and ru
 ```bash
 git clone https://github.com/nahidhk/robotsJST.git
 ```
+Start by install the RobotsJST Package from NodeJS. Open your terminal and run the following command:
+
+```
+npm install robotsjst
+```
 
 This will create a local copy of the repository on your machine.
 
@@ -22,7 +27,7 @@ This will create a local copy of the repository on your machine.
 To include the RobotsJST script in your project, use the following CDN link in your HTML file:
 
 ```html
-<script src="/robotsJST/robotsjs.main.js?v=1.0&cdn=html%php" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/robotsJST/robotsjs.main.js?v=1.0&cdn=html,php" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
 Make sure this script tag is placed within the `<head>` or just before the closing `<body>` tag in your HTML file to ensure it loads correctly.
